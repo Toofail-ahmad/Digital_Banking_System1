@@ -1,0 +1,31 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Environment / secrets
+.env
+*.env
+
+# Spring Boot local configuration
+application-local.properties
+application-local.yml
+
+# Logs
+*.log
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+...
